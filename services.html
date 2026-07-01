@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>サービス詳細 | お食事処MYOJUNKA</title>
+  <meta name="description" content="お食事処MYOJUNKAのサロンメニュー詳細。腸活・姿勢改善ピラティス・Dr.ボッダ式マニュアルリンパドレナージュ・よもぎ蒸し。東洋と西洋 of 融合で身体を整えるメニューをご提供しています。">
+  <link rel="icon" type="image/png" href="img/ロゴ.png">
+  <link rel="apple-touch-icon" href="img/ロゴ.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Noto+Serif+JP:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header id="site-header">
+    <a href="index.html" class="site-logo" aria-label="お食事処MYOJUNKAトップへ">
+      <img src="img/ロゴ.png" alt="お食事処MYOJUNKA ロゴ" width="42" height="42">
+      <div class="site-logo-text">
+        <span class="en">MYOJUNKA</span>
+        <span class="ja">お食事処MYOJUNKA</span>
+      </div>
+    </a>
+
+    <nav aria-label="グローバルナビゲーション">
+      <ul class="nav-desktop">
+        <li><a href="index.html#concept">コンセプト</a></li>
+        <li><a href="services.html">サービス</a></li>
+        <li><a href="banquet.html">宴会・貸切</a></li>
+        <li><a href="index.html#access">アクセス</a></li>
+        <li><a href="contact.html" class="nav-cta">お問い合わせ</a></li>
+      </ul>
+    </nav>
+
+    <button class="hamburger-btn" id="hamburgerBtn" aria-label="メニューを開く" aria-expanded="false" aria-controls="navDrawer">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+
+  <nav class="nav-drawer" id="navDrawer" aria-label="モバイルナビゲーション" aria-hidden="true">
+    <button class="drawer-close-btn" id="drawerCloseBtn" aria-label="メニューを閉じる">&times;</button>
+    <div class="nav-drawer-logo">
+      <img src="img/ロゴ.png" alt="お食事処MYOJUNKA ロゴ" width="36" height="36">
+      <span>MYOJUNKA</span>
+    </div>
+    <ul>
+      <li><a href="index.html">トップ <span class="nav-arrow">→</span></a></li>
+      <li><a href="index.html#concept">コンセプト <span class="nav-arrow">→</span></a></li>
+      <li><a href="services.html">サービス <span class="nav-arrow">→</span></a></li>
+      <li><a href="banquet.html">宴会・貸切 <span class="nav-arrow">→</span></a></li>
+      <li><a href="index.html#access">アクセス <span class="nav-arrow">→</span></a></li>
+      <li><a href="contact.html">お問い合わせ <span class="nav-arrow">→</span></a></li>
+    </ul>
+    <div class="nav-drawer-footer">
+      Tel: 072-447-6209<br>
+      11:00 〜 17:00&nbsp;/&nbsp;定休日：月曜日<br>
+      大阪府岸和田市岸城町 6-10
+    </div>
+  </nav>
+
+  <!-- ==================== PAGE HEADER ==================== -->
+  <div class="page-header">
+    <div class="container page-header-inner">
+      <span class="label-en">salon menu</span>
+      <h1 class="heading-deco" style="font-size:clamp(2.5rem,6vw,5rem);">Salon Menu</h1>
+      <p class="heading-xl" style="font-size:clamp(1.1rem,2.5vw,1.8rem);font-weight:300;letter-spacing:0.1em;margin-top:0.3rem;">サロンメニュー詳細</p>
+      <nav class="page-breadcrumb" aria-label="パンくずリスト">
+        <a href="index.html">トップ</a>
+        <span class="sep" aria-hidden="true">/</span>
+        <span>サービス</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- ==================== INTRO ==================== -->
+  <section class="section" style="background:var(--bg-secondary);padding-top:clamp(50px,7vw,80px);padding-bottom:clamp(50px,7vw,80px);">
+    <div class="container">
+      <div style="max-width:760px;margin:0 auto;text-align:center;" class="reveal">
+        <span class="label-en" style="display:block;margin-bottom:1rem;">concept</span>
+        <h2 class="heading-xl services-intro-title">
+          お食事処MYOJUNKAが大切にしている<br class="sp-only">東洋 &times; 西洋を融合させたアプローチ
+        </h2>
+        <div class="gold-rule gold-rule--center"></div>
+        <p class="lead">私たちは看護師資格を持つセラピストだからこそ、身体へのアプローチ方法をより深く理解し、東洋医学と西洋医学のどちらの考え方も取り入れています。医療現場で培った知識と経験を活かし、身体にとって最も大切な「腸」を整えるメニューをご提案しております。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="service-gut" class="service-detail" style="background:var(--bg-primary);">
+    <div class="container">
+      <div class="service-detail-inner reverse">
+
+        <div class="service-body reveal">
+          <span class="label-en">Gut Therapy</span>
+          <h2 class="heading-xl" style="margin-top:0.5rem;">
+            <span class="heading-deco">Gut Therapy</span>
+            心も身体も温まる腸セラピー
+          </h2>
+          <div class="gold-rule"></div>
+
+          <p>腸には感情が宿り、ハッピーホルモンの8割が腸から出るといわれています。<br>
+          脳と相関関係にある腸を優しく揉みほぐし、心も身体もほっこり温まっていただける極上のリラクゼーションメニューです。</p>
+
+          <div class="service-benefits">
+            <span class="service-badge">腸内環境改善</span>
+            <span class="service-badge">便秘・下痢改善</span>
+            <span class="service-badge">免疫力向上</span>
+            <span class="service-badge">肌荒れ改善</span>
+            <span class="service-badge">精神安定</span>
+            <span class="service-badge">デトックス</span>
+          </div>
+
+          <div style="margin-top:2.5rem;">
+            <a href="contact.html" class="btn btn-outline">ご予約・お問い合わせ</a>
+          </div>
+        </div>
+
+        <div class="service-visual reveal-fade">
+          <img src="img/腸活.jpg" alt="心も身体も温まる腸セラピー" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICE 2: ピラティス ==================== -->
+  <section id="service-pilates" class="service-detail" style="background:var(--bg-secondary);">
+    <div class="container">
+      <div class="service-detail-inner">
+
+        <div class="service-body reveal">
+          <span class="label-en">Pilates</span>
+          <h2 class="heading-xl" style="margin-top:0.5rem;">
+            <span class="heading-deco">Pilates</span>
+            姿勢改善ピラティス
+          </h2>
+          <div class="gold-rule"></div>
+
+          <p>人は見た目が90%と言われ、その第一印象は姿勢。<br>
+          姿勢改善ピラティスは、心身のバランスを整え、本来の美シルエットに近づけて良いことづくし！<br>
+          「持続的な姿勢改善」、「肩こりや腰痛の予防・改善」、「見た目の印象が良くなる」、「ストレス解消」、「ダイエット効果」などが期待できます。<br>
+          運動習慣がない方や運動に自信がない方でも安心してご参加いただけます。</p>
+
+          <div class="service-benefits">
+            <span class="service-badge">姿勢改善</span>
+            <span class="service-badge">体幹強化</span>
+            <span class="service-badge">温活</span>
+            <span class="service-badge">代謝アップ</span>
+            <span class="service-badge">腰痛軽減</span>
+            <span class="service-badge">肩こり改善</span>
+          </div>
+
+          <div style="margin-top:2.5rem;">
+            <a href="contact.html" class="btn btn-outline">ご予約・お問い合わせ</a>
+          </div>
+        </div>
+
+        <!-- 写真プレースホルダー -->
+        <div class="service-visual reveal-fade">
+          <img src="img/pilates.jpg" alt="姿勢改善ピラティス" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICE 3: リンパドレナージュ ==================== -->
+  <section id="service-lymph" class="service-detail" style="background:var(--bg-primary);">
+    <div class="container">
+      <div class="service-detail-inner reverse">
+
+        <div class="service-body reveal">
+          <span class="label-en">Lymph Drainage</span>
+          <h2 class="heading-xl" style="margin-top:0.5rem;">
+            <span class="heading-deco">Lymph Drainage</span>
+            Dr. ボッター式<br>マニュアルリンパドレナージュ
+          </h2>
+          <div class="gold-rule"></div>
+
+          <p>羽のような優しいタッチでリンパ液の流れをスムーズに。<br>
+          オイルなどを一切使用せずにオールハンドで真心を込めて施術する、全国でも数少ないリンパドレナージュです。</p>
+
+          <div class="service-benefits">
+            <span class="service-badge">むくみ改善</span>
+            <span class="service-badge">デトックス</span>
+            <span class="service-badge">免疫力向上</span>
+            <span class="service-badge">リラクゼーション</span>
+            <span class="service-badge">疲労回復</span>
+            <span class="service-badge">美肌効果</span>
+          </div>
+
+          <div style="margin-top:2.5rem;">
+            <a href="contact.html" class="btn btn-outline">ご予約・お問い合わせ</a>
+          </div>
+        </div>
+
+        <div class="service-visual reveal-fade">
+          <img src="img/Dr.ボッダ式マニュアルリンパドレナージュ.jpg" alt="Dr. ボッター式マニュアルリンパドレナージュ" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICE 4: よもぎ蒸し ==================== -->
+  <section id="service-yomogi" class="service-detail" style="background:var(--bg-secondary);">
+    <div class="container">
+      <div class="service-detail-inner">
+
+        <div class="service-body reveal">
+          <span class="label-en">Yomogi Steam</span>
+          <h2 class="heading-xl" style="margin-top:0.5rem;">
+            <span class="heading-deco">Yomogi Steam</span>
+            漢方黄土よもぎ蒸しセラピー
+          </h2>
+          <div class="gold-rule"></div>
+
+          <p>ハーブの女王とされる「よもぎ」は、特に女性特有のお悩みと基礎代謝アップが期待できるハーブ。<br>
+          無農薬のよもぎを使用し、優しい香りに癒されながら、美容と健康にアプローチできるおすすめメニューです。</p>
+
+          <div class="service-benefits">
+            <span class="service-badge">温活</span>
+            <span class="service-badge">デトックス</span>
+            <span class="service-badge">婦人科系改善</span>
+            <span class="service-badge">美肌効果</span>
+            <span class="service-badge">免疫力向上</span>
+            <span class="service-badge">リラクゼーション</span>
+          </div>
+
+          <div style="margin-top:2.5rem;">
+            <a href="contact.html" class="btn btn-outline">ご予約・お問い合わせ</a>
+          </div>
+        </div>
+
+        <!-- 写真 -->
+        <div class="service-visual reveal-fade" style="background: transparent; aspect-ratio: auto; height: auto;">
+          <img src="img/よもぎ蒸し.jpg" alt="漢方黄土よもぎ蒸しセラピー" style="width: 100%; height: auto; object-fit: contain; display: block;">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER CTA ==================== -->
+  <div class="footer-cta">
+    <div class="container reveal">
+      <span class="label-en" style="text-align:center;display:block;margin-bottom:1rem;">reservation</span>
+      <p class="lead-title">ご予約はお電話またはネットから</p>
+      <a href="tel:0724476209" class="tel-link">072-447-6209</a>
+      <div style="margin-top: 1rem; margin-bottom: 1.5rem;">
+        <a href="https://hitosara.com/0031629262/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGn3ehzI1AIkfV5PJOPYxTVRcqBKG_HThXHNzcjicheBR3Fk7jM-n-LY0SeP7I_aem_mkJxCaW5V9kw1pubBZOQvw" target="_blank" rel="noopener noreferrer" class="btn btn-solid">ヒトサラでネット予約</a>
+      </div>
+      <small>営業時間 11:00 〜 17:00&nbsp;&nbsp;/&nbsp;&nbsp;定休日：月曜日</small>
+    </div>
+  </div>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer id="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-brand-logo">
+            <img src="img/ロゴ.png" alt="お食事処MYOJUNKA ロゴ" width="42" height="42">
+            <div class="footer-brand-logo-text">
+              <span class="en">MYOJUNKA</span>
+              <span class="ja">お食事処MYOJUNKA</span>
+            </div>
+          </div>
+          <p class="footer-brand-desc">
+            大阪府岸和田市にて、腸活を軸とした<br>
+            ヘルスイノベーションを体験できる空間。<br>
+            東洋と西洋の融合で、本来の自分へ。
+          </p>
+          <div class="footer-sns">
+            <a href="https://www.instagram.com/ko_fuan/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.youtube.com/@Astudio-xk2zk" target="_blank" rel="noopener noreferrer">YouTube</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <nav class="footer-nav-links" aria-label="フッターナビゲーション">
+            <a href="index.html">トップ</a>
+            <a href="index.html#concept">コンセプト</a>
+            <a href="services.html">サービス</a>
+            <a href="banquet.html">宴会・貸切</a>
+            <a href="index.html#access">アクセス</a>
+            <a href="contact.html">お問い合わせ</a>
+          </nav>
+        </div>
+
+        <div class="footer-col">
+          <h4>Info</h4>
+          <p class="footer-info-text">
+            〒596-0073<br>
+            大阪府岸和田市岸城町 6-10<br><br>
+            Tel: <a href="tel:0724476209">072-447-6209</a><br><br>
+            11:00 〜 17:00<br>
+            定休日：月曜日
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <small>&copy; 2026 お食事処MYOJUNKA. All Rights Reserved.</small>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== MOBILE FIXED ACTION BAR ==================== -->
+  <div class="mobile-action-bar" aria-label="クイックアクセス">
+    <a href="tel:0724476209" class="action-item action-tel">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>電話予約</span>
+    </a>
+    <a href="https://hitosara.com/0031629262/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGn3ehzI1AIkfV5PJOPYxTVRcqBKG_HThXHNzcjicheBR3Fk7jM-n-LY0SeP7I_aem_mkJxCaW5V9kw1pubBZOQvw" target="_blank" rel="noopener noreferrer" class="action-item">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      <span>ネット予約</span>
+    </a>
+    <a href="https://www.instagram.com/ko_fuan/" target="_blank" rel="noopener noreferrer" class="action-item">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+      <span>Instagram</span>
+    </a>
+  </div>
+
+  <!-- ==================== SCRIPTS ==================== -->
+  <script>
+    const header = document.getElementById('site-header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    const hamburgerBtn = document.getElementById('hamburgerBtn');
+    const navDrawer    = document.getElementById('navDrawer');
+    const navOverlay   = document.getElementById('navOverlay');
+
+    function openMenu() {
+      hamburgerBtn.classList.add('is-active');
+      navDrawer.classList.add('is-open');
+      navOverlay.classList.add('is-open');
+      hamburgerBtn.setAttribute('aria-expanded', 'true');
+      navDrawer.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeMenu() {
+      hamburgerBtn.classList.remove('is-active');
+      navDrawer.classList.remove('is-open');
+      navOverlay.classList.remove('is-open');
+      hamburgerBtn.setAttribute('aria-expanded', 'false');
+      navDrawer.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    }
+
+    hamburgerBtn.addEventListener('click', () => {
+      navDrawer.classList.contains('is-open') ? closeMenu() : openMenu();
+    });
+
+    navOverlay.addEventListener('click', closeMenu);
+
+    const drawerCloseBtn = document.getElementById('drawerCloseBtn');
+    if (drawerCloseBtn) {
+      drawerCloseBtn.addEventListener('click', closeMenu);
+    }
+
+    navDrawer.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && navDrawer.classList.contains('is-open')) closeMenu();
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.reveal, .reveal-fade, .reveal-stagger').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
